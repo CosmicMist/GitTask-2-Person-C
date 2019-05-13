@@ -21,13 +21,13 @@ public class GenerateRange
         }
         catch ( Exception e )
         {
-            
+            System.out.println("EXCEPTION!"); //added exception statement
         }
         finally
         {
             if ( scan != null )
             {
-                
+                scan.close(); //added closing of scanner
             }
         }
     }
@@ -40,6 +40,7 @@ public class GenerateRange
         while ( scan.hasNext() )
         {
             first = scan.nextInt();
+            scan.nextLine(); //added line skip
             last = scan.nextInt();
         }
         
