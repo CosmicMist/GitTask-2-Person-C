@@ -14,20 +14,20 @@ public class GenerateRange
         
         try
         {
-            File f = new File( "./src/Range.txt" ); //changed txt name to correct one
+            File f = old File( "./src/Range.txt" );
             scan = new Scanner( f );
             
             genRange( scan );
         }
         catch ( Exception e )
         {
-            System.out.println("EXCEPTION!"); //added exception statement
+            
         }
         finally
         {
             if ( scan != null )
             {
-                scan.close(); //added closing of scanner
+                
             }
         }
     }
@@ -40,7 +40,7 @@ public class GenerateRange
         while ( scan.hasNext() )
         {
             first = scan.nextInt();
-            scan.nextLine(); //added line skip
+            
             last = scan.nextInt();
         }
         
