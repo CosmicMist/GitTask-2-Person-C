@@ -21,13 +21,13 @@ public class GenerateRange
         }
         catch ( Exception e )
         {
-            
+            System.out.println( e );
         }
         finally
         {
             if ( scan != null )
             {
-                
+                scan.close();
             }
         }
     }
