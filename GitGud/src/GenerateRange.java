@@ -14,7 +14,7 @@ public class GenerateRange
         
         try
         {
-            File f = old File( "./src/Range.txt" );
+            File f = new File( "./src/Range.txt" );
             scan = new Scanner( f );
             
             genRange( scan );
