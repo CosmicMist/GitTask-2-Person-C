@@ -1,7 +1,7 @@
-RANDOM NUMBER GENERATOR!!!
+Numboy
 
-- Generates a random number between two values -
+randomly generates a random number between a big boy and a small boy inclusively
 
-1) Type in your lower range value
-2) Type in your higher range value
-3) It should generate a random number between the two values!!
+1) type a small integer
+2) type a big integer
+3) enjoy
