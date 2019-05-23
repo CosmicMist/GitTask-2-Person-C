@@ -1,3 +1,5 @@
-John made a new markdown file
+# _John's Markdown for CosmicMist_
 
-congratulations
+*You should have some fun with random numbers between two values*
+
+## _HAVE FUN DOODS!!!!_
